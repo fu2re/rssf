@@ -8,4 +8,4 @@ RUN pip3.7 install -r requirements.txt
 
 EXPOSE 8001
 
-CMD ["python ./server.py"]
+CMD ["python", "./server.py"]
